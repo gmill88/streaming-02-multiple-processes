@@ -1,7 +1,31 @@
-In the console, type clear and hit Enter or Return. 
+STARTING UP.............................
+  Date and Time:    2024-05-08 at 08:57 AM
+  Operating System: posix Darwin 23.4.0
+  Python Version:   3.12.2
+  Path to Interpreter:  /usr/local/bin/python3
+======================================================================
 
-This will clear the console output. 
+2024-05-08 08:57:01,007 - INFO - Called recreate_database().
+2024-05-08 08:57:01,007 - INFO - Called drop_table().
+2024-05-08 08:57:01,021 - INFO - Table 'pets' dropped successfully.
+2024-05-08 08:57:01,021 - INFO - Called create_table().
+2024-05-08 08:57:01,024 - INFO - Table 'pets' created successfully.
+2024-05-08 08:57:01,194 - INFO - Called process_three().
+2024-05-08 08:57:01,194 - INFO -   Called insert_pet() with process=P3, name=Emma, breed=Rabbit.
+2024-05-08 08:57:01,196 - INFO - Called process_one().
+2024-05-08 08:57:01,197 - INFO -   Called insert_pet() with process=P1, name=Ace, breed=Dog.
+2024-05-08 08:57:01,198 - INFO -   Called insert_pet() with process=P3, name=Felix, breed=Cat.
+2024-05-08 08:57:01,204 - INFO -   Called insert_pet() with process=P1, name=Buddy, breed=Dog.
+2024-05-08 08:57:01,231 - INFO - Called process_two().
+2024-05-08 08:57:01,232 - INFO -   Called insert_pet() with process=P2, name=Cooper, breed=Rabbit.
+2024-05-08 08:57:01,236 - INFO -   Called insert_pet() with process=P2, name=Dingo, breed=Dog.
+2024-05-08 08:57:01,255 - INFO - 
+SUCCESS: All processes successfully completed!
 
-Run the file once while the tasks are short. 
-
-Copy and paste the terminal results (when task_duration is 0) here.
+Now - increase the task duration (representing 
+      the time the task has the database 
+      tied up during an insert statement).
+How well do multiple, concurrent processes share a database 
+    when each task takes more time? 
+How can multiple processes share a resource
+    without interfering with each other?
