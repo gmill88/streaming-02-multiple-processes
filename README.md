@@ -11,6 +11,8 @@ This example starts a shared database and multiple processes.
 
 In this project, we'll look at what happens with concurrent processes are accessing a shared resource.  A shared resource could be a SQLite database, a queue (first-in, first-out, like a grocery store line), a deque ("deck") if working with sliding time windows (which we'll do later), an office printer, or more. 
 
+
+
 ## Prerequisites
 
 1. Git
